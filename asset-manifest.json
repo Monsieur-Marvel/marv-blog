@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/marv-blog/static/css/main.b89bb6f2.css",
+    "main.js": "/marv-blog/static/js/main.7a7db388.js",
+    "static/media/post2.jpg": "/marv-blog/static/media/post2.63af9d9628f533602045.jpg",
+    "static/media/post1.jpg": "/marv-blog/static/media/post1.910aa3952dc70d0d99c4.jpg",
+    "static/media/post3.jpg": "/marv-blog/static/media/post3.4fa111b5d95bfc8ab551.jpg",
+    "index.html": "/marv-blog/index.html",
+    "main.b89bb6f2.css.map": "/marv-blog/static/css/main.b89bb6f2.css.map",
+    "main.7a7db388.js.map": "/marv-blog/static/js/main.7a7db388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b89bb6f2.css",
+    "static/js/main.7a7db388.js"
+  ]
+}
