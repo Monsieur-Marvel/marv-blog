@@ -1,0 +1,131 @@
+/* Blog layout container */
+.blog-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #fff;
+}
+
+/* === Main blog section === */
+.blog-main {
+  flex: 3;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.blog-card {
+  background: #222;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.blog-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* === Sidebar section === */
+.sidebar {
+  flex: 1;
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar h3 {
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.sidebar li:hover {
+  transform: translateX(5px);
+}
+
+.sidebar img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sidebar h4 {
+  font-size: 0.95rem;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.sidebar p {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin: 5px 0 0;
+}
+
+/* Responsive view */
+@media (max-width: 900px) {
+  .blog-layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.read-btn {
+  background-color: #f5c518;       /* Gold color (base) */
+  color: #222;                     /* Dark text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;       /* Smooth hover transition */
+}
+
+/* Hover effect */
+.read-btn:hover {
+  background: linear-gradient(45deg, #ffcc00, #ff9900);
+  transform: translateY(-2px);     /* Lighter gold */
+  color: #000;                     /* Slightly darker text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Nice shadow */
+}
