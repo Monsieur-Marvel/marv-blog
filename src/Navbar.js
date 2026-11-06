@@ -11,8 +11,7 @@ function Navbar() {
       <Link to="/" className="navbar-brand" onClick={() => setIsOpen(false)}>
         Marvel's Blog
       </Link>
-
-      {/* Hamburger */}
+          
       <div
         className={`hamburger ${isOpen ? "active" : ""}`}
         onClick={() => setIsOpen(!isOpen)}
@@ -22,7 +21,6 @@ function Navbar() {
         <span></span>
       </div>
 
-      {/* Dropdown links */}
       <ul className={`nav-links ${isOpen ? "show" : ""}`}>
         <li>
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
