@@ -112,20 +112,20 @@
 }
 
 .read-btn {
-  background-color: #f5c518;       /* Gold color (base) */
-  color: #222;                     /* Dark text */
+  background-color: #f5c518;      
+  color: #222;                   
   border: none;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;       /* Smooth hover transition */
+  transition: all 0.3s ease;     
 }
 
 /* Hover effect */
 .read-btn:hover {
   background: linear-gradient(45deg, #ffcc00, #ff9900);
-  transform: translateY(-2px);     /* Lighter gold */
-  color: #000;                     /* Slightly darker text */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Nice shadow */
+  transform: translateY(-2px);     
+  color: #000;                    
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
