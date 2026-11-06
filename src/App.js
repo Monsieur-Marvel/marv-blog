@@ -13,9 +13,7 @@ function App() {
   return (
     <Router basename="/marv-blog">
       <div>
-        {/* Navbar at the top */}
         <Navbar />
-        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
